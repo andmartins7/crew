@@ -7,10 +7,10 @@ from langchain_openai import ChatOpenAI
 from langchain_groq import ChatGroq
 from textwrap import dedent
 
-# Carregar as variáveis de ambiente do arquivo .env
+# Carregar as variáveis de ambiente
 load_dotenv()
 
-# Configuração das chaves de API (substitua com suas chaves reais)
+# Configuração das chaves de API
 openai_api_key = os.getenv("OPENAI_API_KEY")
 groq_api_key = os.getenv("GROQ_API_KEY")
 
