@@ -52,6 +52,10 @@ cd ai-marketing-agency
    ```bash
    pip install crewai crewai-tools langchain_openai langchain_groq python-dotenv textwrap3
    ```
+   
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 2. **Set up your environment variables:**
 
